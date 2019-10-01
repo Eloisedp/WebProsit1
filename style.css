@@ -44,6 +44,15 @@ html, body {margin: 0;}
 
 }
 
+.alexis
+{
+    right: -85px;
+    position: absolute;
+    top: 3px;
+    width: 124px;
+    height: 124px;
+}
+
 .bandeaubleu
 {
     background-color: #72C9C1;
