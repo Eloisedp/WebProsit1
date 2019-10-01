@@ -1,5 +1,16 @@
 html, body {margin: 0;}
 
+@font-face {
+    font-family: 'Imperfecta';
+    src: url('/imperfecta/Imperfecta.ttf');
+}
+
+@font-face {
+    font-family: 'Bignoo';
+    src: url('/bignoo/bignoo.ttf');
+}
+
+
 .bandeau1
 {
     background-color:#D5D5D5;
@@ -15,7 +26,7 @@ html, body {margin: 0;}
     background-color: white;
     color : #535353;
     font-size: 22px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Imperfecta;
     margin: 0;
     line-height: 50px;
     position: relative;
@@ -76,7 +87,7 @@ html, body {margin: 0;}
     color: #003CA4;
     position: relative;
     left: 20%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Imperfecta;
     font-size: 45px;
 }
 
@@ -95,9 +106,6 @@ img
 p
 {
     color: #003CA4;
-    background-color: #E4E4E4;
-    width: 373px;
-    height: 278px;
     margin: 0;
     font-size: 39px;
     line-height: 47px;
@@ -105,4 +113,58 @@ p
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     
+}
+.actu
+{
+    background-color: #E4E4E4;
+    width: 373px;
+    height: 278px;
+}
+
+.titreventes
+{
+    color: #003CA4;
+    font-family: Imperfecta;
+    font-size: 45px;
+    text-align: center;
+}
+
+.ventes
+{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.vinb
+{
+    height: 432px;
+    width: 114px;
+}
+
+.vinrg
+{
+    height: 450px;
+    width: 150px;
+}
+
+.vinro
+{
+    height: 463px;
+    width: 150px;
+}
+
+.detailvins
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h5
+{
+    font-family: Imperfecta;
+    color: white;
+    text-align: right;
 }
